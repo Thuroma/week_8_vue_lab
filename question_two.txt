@@ -1,0 +1,6 @@
+This means that a Vue property was specefied in the html
+ but it was not returned, or provided a value, by the Vue.createApp() 
+ in the script. The problem is that the html element is not being bound
+ to the data from the model. This can be fixed by returning the 
+ variable's value in the Data() section. The page can still be loaded but
+ any display depending on the value will not be drawn.
